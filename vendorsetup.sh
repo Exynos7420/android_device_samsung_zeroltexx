@@ -15,3 +15,4 @@
 #
 
 add_lunch_combo aokp_zeroltexx-userdebug
+add_lunch_combo aosp_zeroltexx-userdebug
