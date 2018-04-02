@@ -22,9 +22,5 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 ## (2) Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/zeroltexx/zeroltexx-vendor.mk)
 
-# Carrier init
-PRODUCT_PACKAGES += \
-    init.carrier.rc
-
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/zero-common.mk)
