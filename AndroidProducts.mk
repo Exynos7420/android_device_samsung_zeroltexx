@@ -4,4 +4,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosip.mk \
     $(LOCAL_DIR)/lineage.mk \
     $(LOCAL_DIR)/aicp.mk \
-    $(LOCAL_DIR)/fh.mk
+    $(LOCAL_DIR)/fh.mk \
+    $(LOCAL_DIR)/aokp.mk
