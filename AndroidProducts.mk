@@ -6,4 +6,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aicp.mk \
     $(LOCAL_DIR)/fh.mk \
     $(LOCAL_DIR)/aokp.mk \
-    $(LOCAL_DIR)/omni_zeroltexx.mk
+    $(LOCAL_DIR)/omni_zeroltexx.mk \
+    $(LOCAL_DIR)/dot.mk
