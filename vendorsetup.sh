@@ -22,3 +22,4 @@ add_lunch_combo fh_zeroltexx-userdebug
 add_lunch_combo aokp_zeroltexx-userdebug
 add_lunch_combo omni_zeroltexx-userdebug
 add_lunch_combo dot_zeroltexx-userdebug
+add_lunch_combo du_zeroltexx-userdebug
