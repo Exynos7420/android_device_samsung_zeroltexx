@@ -8,4 +8,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aokp.mk \
     $(LOCAL_DIR)/omni_zeroltexx.mk \
     $(LOCAL_DIR)/dot.mk \
-    $(LOCAL_DIR)/du.mk
+    $(LOCAL_DIR)/du.mk \
+    $(LOCAL_DIR)/havoc.mk
