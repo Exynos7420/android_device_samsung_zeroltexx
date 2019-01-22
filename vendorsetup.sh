@@ -15,3 +15,4 @@
 #
 
 add_lunch_combo lineage_zeroltexx-userdebug
+add_lunch_combo viper_zeroltexx-userdebug
