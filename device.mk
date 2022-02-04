@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/zerofltexx
+LOCAL_PATH := device/samsung/zeroltexx
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -78,7 +78,7 @@ PRODUCT_PACKAGES += \
 	fstab.samsungexynos7420 \
 	init.baseband.rc \
 	init.gps.rc \
-	init.zerofltexx.rc \
+	init.zeroltexx.rc \
 	ueventd.samsungexynos7420.rc
 
 # Sensors
@@ -90,4 +90,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Call the proprietary
-$(call inherit-product, vendor/samsung/zerofltexx/zerofltexx-vendor.mk)
+$(call inherit-product, vendor/samsung/zeroltexx/zeroltexx-vendor.mk)

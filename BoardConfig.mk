@@ -23,10 +23,10 @@
 # inherit from universal7420-common
 include device/samsung/universal7420-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/zerofltexx
+LOCAL_PATH := device/samsung/zeroltexx
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zeroflte,zerofltexx,zeroflteskt
+TARGET_OTA_ASSERT_DEVICE := zerolte,zeroltexx,zerolteskt
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
@@ -45,10 +45,10 @@ TARGET_LD_SHIM_LIBS += \
 	/system/lib64/libbauthserver.so|/vendor/lib64/libbauthtzcommon_shim.so
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerofltexx/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/zeroltexx/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_zerofltexx_defconfig
+TARGET_KERNEL_CONFIG := lineageos_zeroltexx_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/configs/manifest.xml
